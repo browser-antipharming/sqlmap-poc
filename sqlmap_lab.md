@@ -22,9 +22,9 @@ Run these commands to run the server:
 
 ```
 sudo apt-get install -y nodejs npm
-git clone teehee && cd
+git clone https://github.com/lilahadeline/sqlmap-poc.git & cd sqlmap-poc
 npm install
-npm start
+node index.js
 ```
 
 # Hunting for SQLi
