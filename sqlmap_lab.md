@@ -1,6 +1,6 @@
 # Lab Overview
 
-In this lab, we will demonstrate the use of `sqlmap` (a popular Kali tool for SQLi)
+In this lab, we will demonstrate the use of `sqlmap` (a popular Kali tool for SQLi). We assume you already have a general understanding of SQL injection and want to see how sqlmap can be used to aide in SQLi attacks
 
 ## Requirements
 
@@ -79,6 +79,8 @@ back-end DBMS: SQLite
 | users |
 +-------+
 ```
+
+Note - to grok the many command line parameters available in SQLMap, check out these docs: https://www.kali.org/tools/sqlmap/
 
 Great, now that we know the table name is `users`, we can find the column names:
 
